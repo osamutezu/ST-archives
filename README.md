@@ -1,4 +1,4 @@
-# WARDROBE — Spatial Archive
+# ARCHIVES — Spatial Archive
 
 A clean white spatial wardrobe gallery prototype. No external libraries or server required.
 
@@ -25,3 +25,10 @@ Double-click `index.html` in a modern browser.
 - A public GitHub Pages site is visible to others. This prototype does **not** have password protection or cloud sync.
 - Background removal is not automatic; upload PNG/WebP with transparent background for the cleanest result.
 - The 80 demo items are placeholders and are not included in JSON exports.
+
+## v1.4
+- Renamed visible site identity and browser title to ARCHIVES.
+- Added RELATIONS spatial view connecting outfits to linked items.
+- Preserved existing localStorage keys for compatibility with v1.3 data.
+- Existing icons retained with cache-busting query parameters.
+- RELATIONS is a 2.5D prototype, not a physically accurate 3D renderer.
